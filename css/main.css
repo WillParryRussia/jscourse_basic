@@ -1,3 +1,54 @@
-h1 {
-	background-color: rgba(33, 44, 143, 0.25);
-}
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&subset=cyrillic,cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700&subset=cyrillic-ext");
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%;
+  font-family: "Montserrat", sans-serif, fantasy;
+  font-size: 14px; }
+
+body {
+  overflow-x: hidden; }
+
+.container {
+  min-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+  .container__top {
+    flex-grow: 1; }
+  .container__footer {
+    min-height: 0px;
+    /*min-height: 50px;
+    background-color: dodgerblue;
+    min-width: 320px;
+    max-width: 1366px;*/
+    margin: 0 auto; }
+
+.top__header {
+  min-height: 0px;
+  /*min-height: 50px;
+  background-color: crimson; */}
+
+.wrapper {
+  min-width: 320px;
+  max-width: 1366px;
+  margin: 0 auto; }
+
+.slider {
+  background: url("../img/cover.jpg") no-repeat fixed 50%/50%;
+  background-size: cover;
+  min-height: 200px;
+  height: 100vh;
+  min-width: 320px; }
+  .slider__h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700; }
+  .slider__text {
+    color: white;
+    font-size: 2rem;
+    text-align: center; }
