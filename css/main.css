@@ -15,40 +15,4 @@ body {
 .container {
   min-height: 100%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column; }
-  .container__top {
-    flex-grow: 1; }
-  .container__footer {
-    min-height: 0px;
-    /*min-height: 50px;
-    background-color: dodgerblue;
-    min-width: 320px;
-    max-width: 1366px;*/
-    margin: 0 auto; }
-
-.top__header {
-  min-height: 0px;
-  /*min-height: 50px;
-  background-color: crimson; */}
-
-.wrapper {
-  min-width: 320px;
-  max-width: 1366px;
-  margin: 0 auto; }
-
-.slider {
-  background: url("../img/cover.jpg") no-repeat fixed 50%/50%;
-  background-size: cover;
-  min-height: 200px;
-  height: 100vh;
-  min-width: 320px; }
-  .slider__h1 {
-    color: white;
-    font-size: 4rem;
-    text-align: center;
-    font-weight: 700; }
-  .slider__text {
-    color: white;
-    font-size: 2rem;
-    text-align: center; }
+  display: flex;}

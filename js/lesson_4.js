@@ -453,7 +453,7 @@ const playerMillionaire = {
 	lifelinesRegisteredNumbers: [],
 	playerName: null,
 	bodyQA: null,
-	formatQuestion: null,
+	formattedQuestion: null,
 	enteredAnswer: null
 };
 /**
@@ -1120,4 +1120,4 @@ const gameMillionaire = {
 //game.run();
 
 // Задание № 3 (раскомментируйте, чтобы запустить) :
-//gameMillionaire.run();
+gameMillionaire.run();
